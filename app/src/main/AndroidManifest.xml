@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andy.marrycube">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Main3Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".SegundaPregunta"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".TerceraPregunta"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".CuartaPregunta"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".Resultado"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".Castigo1"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".Castigo2"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".Castigo3"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".Castigo4"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".Intro"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Galleta"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".preguntaM1" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".Castigo1M" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".PreguntaM2" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".Castigo2M"  android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".PreguntaM3"  android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".Castigo3M"  android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".PreguntaM4" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".Castigo4M" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".MResultado" android:configChanges="keyboardHidden|orientation|screenSize"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Marry Cube</string>
+    <string name="msg">Averigua tu futuro</string>
+    <string name="name1">Averigua tu futuro</string>
+    <string-array name="cast">
+        <item>Ludovico Peluche</item>
+        <item>Peña Nieto</item>
+        <item>Bob esponga</item>
+    </string-array>
+    <string-array name="transporte">
+        <item>En una Vaca</item>
+        <item>En un Burro</item>
+        <item>Caminando miando</item>
+    </string-array>
+
+    <string-array name="Miel">
+        <item>En el perreke</item>
+        <item>En Nezayork</item>
+        <item>Un basurero</item>
+    </string-array>
+
+    <string-array name="Hijos">
+        <item>Una docena</item>
+        <item>No tendrás hijos, tendrás un dinosaurio</item>
+        <item>No tendrás hijos, tendrás un gato volador</item>
+    </string-array>
+
+    <string-array name="galleta">
+        <item>"¿Te qieres drogar? Drogate de abrazos"</item>
+        <item>"¿Quieres tomar? toma el control de tu vida"</item>
+        <item>"Tú eres una carcacha, asi que paso a pasito no pares de tambalear"</item>
+        <item>"Vuelve a intentarlo. Fracasa de nuevo. Fracasa mejor."</item>
+    </string-array>
+</resources>
